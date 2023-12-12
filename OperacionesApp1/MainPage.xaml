@@ -1,0 +1,42 @@
+﻿<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OperacionesApp1.MainPage">
+    <ContentPage Title="Suma">
+        <StackLayout>
+            <Entry x:Name="valor1" Placeholder="Valor 1" />
+            <Entry x:Name="valor2" Placeholder="Valor 2" />
+            <Entry x:Name="valor3" Placeholder="Valor 3" />
+            <Button Text="Sumar" Clicked="SumarClicked" />
+            <Label x:Name="resultadoSuma" />
+            <Button Text="Limpiar" Clicked="LimpiarClicked" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Resta">
+        <StackLayout>
+            <Entry x:Name="valor4" Placeholder="Valor 1" />
+            <Entry x:Name="valor5" Placeholder="Valor 2" />
+            <Button Text="Restar" Clicked="RestarClicked" />
+            <Label x:Name="resultadoResta" />
+            <Button Text="Limpiar" Clicked="LimpiarClicked" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Multiplicación">
+        <StackLayout>
+            <Entry x:Name="valor6" Placeholder="Valor 1" />
+            <Entry x:Name="valor7" Placeholder="Valor 2" />
+            <Entry x:Name="valor8" Placeholder="Valor 3" />
+            <Button Text="Multiplicar" Clicked="MultiplicarClicked" />
+            <Label x:Name="resultadoMultiplicacion" />
+            <Button Text="Limpiar" Clicked="LimpiarClicked" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="División">
+        <StackLayout>
+            <Entry x:Name="valor9" Placeholder="Valor 1" />
+            <Entry x:Name="valor10" Placeholder="Valor 2" />
+            <Button Text="Dividir" Clicked="DividirClicked" />
+            <Label x:Name="resultadoDivision" />
+            <Button Text="Limpiar" Clicked="LimpiarClicked" />
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
